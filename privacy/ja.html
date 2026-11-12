@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>SparkBuild · プライバシーポリシー</title>
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+  <header class="site">
+    <a class="brand" href="../index.html">SparkBuild</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="../index.html">サポート</a>
+      <a href="ja.html" aria-current="page">プライバシーポリシー</a>
+    </nav>
+  </header>
+  <nav aria-label="Language"><a href="index.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+<a href="zh-Hant.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a>
+<a href="en.html" lang="en" hreflang="en">English</a>
+<a href="ja.html" lang="ja" hreflang="ja" aria-current="page">日本語</a>
+<a href="ko.html" lang="ko" hreflang="ko">한국어</a>
+<a href="de.html" lang="de" hreflang="de">Deutsch</a>
+<a href="fr.html" lang="fr" hreflang="fr">Français</a></nav>
+  <main>
+    <h1>SparkBuild · プライバシーポリシー</h1>
+    <p class="date">更新日・発効日：2026年11月9日</p>
+    <p>SparkBuild の開発・運営者は JQ-Miao です。本ポリシーは、個人用ツールの作成・実行時に SparkBuild が情報をどのように扱うかを説明します。連絡先：sparkbuild2026@outlook.com。SparkBuild アカウントの登録は不要です。本ポリシーは設定からオフラインでも閲覧できます。</p>
+    <section aria-labelledby="storage"><h2 id="storage">端末内の情報と API キー</h2><p>作品、ソースコード、開発時の会話、変更履歴、ツールの記録、選択したメディアは端末に保存されます。環境設定はシステムの設定領域に保存されます。AI API キーは iOS キーチェーンに保存され、リクエスト認証のため選択した AI 接続先へ送信されます。ホストが自身の AI キーをツールのページに渡すことはありません。</p>
+<p>SparkBuild にクラウド同期機能はありません。システム設定や操作に応じて、iOS バックアップや書き出したファイルに端末内のデータが含まれる場合があります。</p></section><section aria-labelledby="ai"><h2 id="ai">AI サービスに送信する情報</h2><p>初めて内容を送信する前に、送信先アドレス、データの種類と目的を表示し、明示的な同意を求めます。作成用の会話と各作品は別々に同意が必要です。既存の一般的な AI 権限では代用できません。</p>
+<p>作成・編集・修復のリクエストを送ると、SparkBuild は必要に応じて指示、関連する会話履歴、プロジェクト情報、ソースコード、ツールの実行結果、選択した画像を設定済み AI 接続先へ送信します。修復用の情報には実行エラーや診断情報が含まれる場合があります。ツールの AI 利用を許可すると、そのツールが選んだメッセージや画像もこの接続先へ送信できます。入力には、あなたが提供した個人情報が含まれる場合があります。会話の画像は再エンコードされ、GPS タグを含む元の EXIF メタデータを除去しますが、画像に写る内容から人物や場所を特定できる場合があります。</p>
+<p>DeepSeek、Anthropic/Claude、OpenAI、Google/Gemini、Cursor に対応しています。カスタム URL を使う場合、リクエストと認証情報は設定したサーバーまたはプロキシに送られます。内蔵 AI のリクエスト経路は DeepSeek を利用し、リクエストの分離と不正利用防止のため、インストールごとにランダム生成した識別子を付加します。これは広告識別子ではありません。各接続先は IP アドレスなど通常のネットワーク情報も受け取ります。</p>
+<p>同意はこのサービスアドレスと用途に適用されます。アドレスの変更時は再度同意が必要です。「設定 → AI 設定 → AI データ共有」で撤回できます。撤回すると以後のリクエストは停止しますが、送信済みのデータは取り戻せません。</p></section><section aria-labelledby="permissions"><h2 id="permissions">システム権限と機微情報</h2><p>ツールに必要な権限だけを使用してください。カメラ、マイク、選択した写真、ファイル、連絡先、リマインダーはシステム画面と必要な認可を使用します。写真への保存は追加のみの権限です。予定の追加はシステム編集画面で確認します。カレンダーの読み取り権限は要求せず、予定の一覧取得、編集、削除は提供しません。このバージョンは健康、モーション、位置情報へのアクセスを提供しません。権限の撤回では保存済み情報は消えません。</p>
+<p>OCR と画像解析は Apple Vision で端末内処理します。翻訳は Apple の端末内翻訳を使い、必要時に言語をダウンロードします。音声認識は対応時に端末内で行い、それ以外は Apple がオンラインで音声を処理する場合があります。Face ID と Touch ID は認証結果だけを返し、生体認証テンプレートは取得しません。機密情報を共有する前にツールの動作を確認してください。</p></section><section aria-labelledby="surfaces"><h2 id="surfaces">ウィジェット、書き出し、外部コンテンツ</h2><p>ウィジェットとライブアクティビティには選択したカード内容を使い、アプリと拡張機能は iOS App Group で必要なデータを共有します。ホーム画面やロック画面に表示されるため、機微情報を追加する前に公開範囲を確認してください。</p>
+<p>ソース ZIP の書き出しにはコード、作品の説明、設計メモ、選択したアイコン（切り抜いた写真を含む）が含まれます。ツールの記録、ツール内に保存したメディア、権限、開発会話、変更履歴は含まれません。その他の書き出し・共有・印刷には選択した内容が含まれる場合があります。ツールは外部リソースの読み込み、サービスの呼び出し、リンクの表示が可能で、接続先はリクエストやツールが送信するデータを受け取ります。</p></section><section aria-labelledby="network"><h2 id="network">ネットワーク通信と診断情報</h2><p>アプリは Tencent Cloud COS からバージョン・構成情報を取得します。ホスト側は IP アドレスなど通常のリクエスト情報を受け取りますが、この構成リクエストに作品のソースや会話は含まれません。外部依存関係の確認時にも該当リソースのホストに接続します。</p>
+<p>SparkBuild は広告、第三者のアクセス解析、自動的に第三者へクラッシュを送信する SDK を組み込んでいません。個人情報を販売せず、アプリ横断の広告追跡にも使いません。端末内ログにエラー、提供者・モデルの情報、リクエスト統計が記録される場合があります。開発ビルドはリクエスト・応答内容を開発コンソールに出力する場合もあります。診断情報が自動的に開発者へ送られることはありません。AI 修復やメールサポートで提出した情報は、該当する宛先へ送られます。</p></section><section aria-labelledby="purchases"><h2 id="purchases">任意のサポート購入</h2><p>開発者へのコーヒー代としてサポートする場合、アプリ内の支払いは Apple が処理します。SparkBuild はデバイス上で StoreKit の商品情報と取引情報を使用し、現地価格の表示、購入の検証、取引の完了を行います。アプリはカード情報や Apple Account の認証情報を受け取らず、購入記録を開発者のサーバーにアップロードしません。Apple は独自のプライバシーポリシーに従って支払い情報を取り扱います。サポートは任意であり、機能や AI 利用枠の追加はなく、サブスクリプションでもありません。</p></section><section aria-labelledby="sharing"><h2 id="sharing">受領者、処理地域、提供者の保存期間</h2><p>AI リクエスト、システムのオンラインサービス、ツールの外部コンテンツ、選択した書き出し、サポートメールでは、関連情報が端末外に送られる場合があります。AI 提供者、設定済みサーバーやプロキシ、Apple、リソースのホスト、メール提供者は、それぞれの規約とポリシーで情報を扱います。処理は居住国・地域以外で行われる場合があります。</p>
+<p>保存期間、安全対策、再委託先、モデル学習への利用の可能性は、サービス、アカウント設定、契約によって異なります。SparkBuild はすべての接続先について保存なし・学習利用なしを保証できません。個人情報や機密情報を送る前に提供者の規約をご確認ください。SparkBuild が写真ライブラリ全体、連絡先全体、すべての作品をこれらのサービスに自動送信することはありません。</p></section><section aria-labelledby="retention"><h2 id="retention">保存期間と削除</h2><p>端末内の情報は通常、あなたが削除するまで保存されます。作品をゴミ箱に移動してもデータは残り、完全に削除すると対応する作業領域、記録、メディア、開発添付ファイル、ウェブ保存領域を削除します。システムアカウントに作成済みの予定・リマインダーは、カレンダーやリマインダーアプリで管理してください。書き出し・共有済みのコピーやバックアップは別途削除が必要です。</p>
+<p>保存した AI 認証情報を消すには、必要に応じアンインストール前に AI 設定から削除してください。iOS キーチェーンの項目はアンインストール後も残る場合があります。アンインストールによって AI やメール提供者のコピーは削除されません。各提供者の保存規則が適用されるため、該当提供者へ削除を依頼してください。サポートメールは対応と法的義務に必要な期間保存し、不要になった際に削除します。</p></section><section aria-labelledby="rights"><h2 id="rights">選択、権利、お問い合わせ</h2><p>端末内データの閲覧・編集、ソースの書き出し、作品の完全削除、AI 接続先の変更、認証情報の削除、権限の取り消しが可能です。本ポリシーの閲覧や AI・任意権限に依存しない既存の端末内データへのアクセスには、これらの機能を有効にする必要はありません。</p>
+<p>メールを送ると、JQ-Miao はメールアドレス、メールソフトが含める名前、本文、選択した添付ファイルを受け取り、回答、問題調査、プライバシーの依頼対応に使用します。API キーや不要な機微情報を送らないでください。適用法により、アクセス、訂正、削除、処理の制限・異議、データポータビリティ、同意撤回を求め、監督機関に申し立てる権利がある場合があります。sparkbuild2026@outlook.com へご連絡ください。適用法に従って対応し、合理的な本人確認を行う場合があります。当方が扱えるのは管理下の情報に限られ、第三者のコピーはその提供者への依頼が必要な場合があります。</p>
+<p>同意はこのサービスアドレスと用途に適用されます。アドレスの変更時は再度同意が必要です。「設定 → AI 設定 → AI データ共有」で撤回できます。撤回すると以後のリクエストは停止しますが、送信済みのデータは取り戻せません。</p></section><section aria-labelledby="security"><h2 id="security">情報セキュリティ</h2><p>SparkBuild は iOS サンドボックス、キーチェーン、システム権限制御、内蔵ネットワーク接続先での HTTPS によって情報の保護を図ります。ツールの保存領域は作品ごとに分離します。完全に安全な保存・通信方法はありません。カスタム接続先や読み込み・生成したツールは異なる安全特性を持つ場合があります。実行・許可・共有する内容を確認してください。</p></section><section aria-labelledby="children"><h2 id="children">子どもと未成年者</h2><p>SparkBuild は子ども向けに特別に設計されたサービスではありません。未成年者は適切な保護者の指導を受け、接続サービスの年齢要件を守って利用してください。子どもが必要な承認なく開発者に個人情報を提供したと思われる場合はご連絡ください。法に従って確認し、当方の管理下にある情報を削除します。</p></section><section aria-labelledby="changes"><h2 id="changes">ポリシーの変更</h2><p>機能や情報の取扱いが変わった場合、本ポリシーを更新します。現在のポリシーと発効日は設定で確認できます。重要な変更について適用法が通知や同意を求める場合、必要な通知または同意取得を行います。</p></section>
+    <section><h2>サービス提供者のプライバシーポリシー</h2><ul><li><a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" rel="noreferrer">DeepSeek</a></li>
+<li><a href="https://www.anthropic.com/legal/privacy" rel="noreferrer">Anthropic / Claude</a></li>
+<li><a href="https://openai.com/policies/privacy-policy/" rel="noreferrer">OpenAI</a></li>
+<li><a href="https://policies.google.com/privacy" rel="noreferrer">Google / Gemini</a></li>
+<li><a href="https://cursor.com/privacy" rel="noreferrer">Cursor</a></li>
+<li><a href="https://www.tencentcloud.com/document/product/301/17345" rel="noreferrer">Tencent Cloud</a></li>
+<li><a href="https://www.apple.com/legal/privacy/" rel="noreferrer">Apple</a></li>
+<li><a href="https://privacy.microsoft.com/privacystatement" rel="noreferrer">Microsoft / Outlook</a></li></ul></section>
+    <p><a href="mailto:sparkbuild2026@outlook.com">sparkbuild2026@outlook.com</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.75; }
+* { box-sizing: border-box; }
+body { max-width: 46rem; margin: auto; padding: 1.25rem 1.25rem 4rem; overflow-wrap: anywhere; }
+header.site { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .75rem 1.5rem; margin-bottom: 1.75rem; padding-bottom: .9rem; border-bottom: 1px solid light-dark(#d8dee6, #2c333c); }
+.brand { font-weight: 700; text-decoration: none; color: inherit; font-size: 1.05rem; }
+.site-nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+.site-nav a, nav a { padding: .25rem 0; }
+[aria-current] { font-weight: 700; }
+h1 { line-height: 1.25; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+a { color: light-dark(#1b5d8f, #8acaff); text-underline-offset: .2em; }
+.date, .muted { opacity: .7; }
+.stack { display: grid; gap: 1rem; }

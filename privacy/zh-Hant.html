@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>SparkBuild · 隱私權政策</title>
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+  <header class="site">
+    <a class="brand" href="../index.html">SparkBuild</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="../index.html">支援</a>
+      <a href="zh-Hant.html" aria-current="page">隱私權政策</a>
+    </nav>
+  </header>
+  <nav aria-label="Language"><a href="index.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+<a href="zh-Hant.html" lang="zh-Hant" hreflang="zh-Hant" aria-current="page">繁體中文</a>
+<a href="en.html" lang="en" hreflang="en">English</a>
+<a href="ja.html" lang="ja" hreflang="ja">日本語</a>
+<a href="ko.html" lang="ko" hreflang="ko">한국어</a>
+<a href="de.html" lang="de" hreflang="de">Deutsch</a>
+<a href="fr.html" lang="fr" hreflang="fr">Français</a></nav>
+  <main>
+    <h1>SparkBuild · 隱私權政策</h1>
+    <p class="date">更新及生效日期：2026 年 11 月 9 日</p>
+    <p>SparkBuild 由 JQ-Miao 開發及營運。本政策說明你建立、執行個人工具時，SparkBuild 如何處理資訊。聯絡信箱：sparkbuild2026@outlook.com。使用 SparkBuild 無須註冊 SparkBuild 帳號。你可以在設定中離線閱讀本政策。</p>
+    <section aria-labelledby="storage"><h2 id="storage">本機資訊與 API 金鑰</h2><p>作品、原始碼、開發對話、版本記錄、工具業務記錄及所選媒體儲存在你的裝置上；偏好設定使用系統設定儲存。AI API 金鑰儲存在 iOS 鑰匙圈，並傳送至所選 AI 端點以驗證請求。宿主不會將自身的 AI 金鑰提供給工具頁面。</p>
+<p>SparkBuild 沒有內建雲端同步。視你的系統設定及操作而定，iOS 備份與匯出的檔案可能包含本機資料。</p></section><section aria-labelledby="ai"><h2 id="ai">傳送給 AI 服務的資訊</h2><p>首次傳送內容前，SparkBuild 會顯示接收服務位址、資料種類和用途，並徵求明確同意。創作對話與每個作品分別授權；既有的一般 AI 權限不能代替此項同意。</p>
+<p>當你傳送建立、修改或修復請求時，SparkBuild 會依請求需要，將指令、相關對話歷史、專案資訊、原始碼、工具回傳結果及所選圖片傳送至已設定的 AI 端點。修復情境可能包含執行錯誤與診斷資訊。你允許工具使用 AI 後，工具可以透過該端點傳送其選定的訊息與圖片。這些輸入可能包含你提供的個人資訊。對話圖片會重新編碼，移除原始 EXIF 中繼資料（含 GPS 標籤）；圖片可見內容仍可能識別人物或地點。</p>
+<p>支援的服務商包括 DeepSeek、Anthropic/Claude、OpenAI、Google/Gemini 與 Cursor。設定自訂端點時，請求與驗證憑證會傳送至你設定的伺服器或代理。內建 AI 請求路徑使用 DeepSeek，並附帶隨機產生的安裝識別碼，用於請求隔離及防止濫用；它不是廣告識別碼。各端點也會收到 IP 位址等一般網路資訊。</p>
+<p>本次同意僅適用於此服務位址和用途。更換服務位址後需要重新同意。你可在「設定 → AI 設定 → AI 資料共享」撤銷同意。撤銷會停止後續請求，無法收回已傳送的資料。</p></section><section aria-labelledby="permissions"><h2 id="permissions">系統權限與敏感資訊</h2><p>請僅為工具開啟需要的權限。相機、麥克風、所選照片、檔案、所選聯絡人和提醒事項使用系統介面及適用的授權；儲存至相簿只申請新增權限。新增行事曆行程時開啟系統編輯器，由你確認儲存；SparkBuild 不申請行事曆讀取權限，不提供系統行程的列表、修改或刪除。本版本不提供健康、運動或定位存取。撤銷權限不會清除已儲存的資訊。</p>
+<p>OCR 和影像分析使用 Apple Vision 在本機處理。翻譯使用 Apple 裝置端翻譯，必要時下載語言。語音辨識優先在裝置端處理；不支援時，Apple 可能在線上處理音訊。Face ID 和 Touch ID 只回傳驗證結果，SparkBuild 不會取得生物辨識範本。分享敏感資訊前請確認工具的實際行為。</p></section><section aria-labelledby="surfaces"><h2 id="surfaces">小工具、匯出與外部內容</h2><p>小工具與即時動態使用你選取的卡片內容，主 App 與延伸功能透過 iOS App Group 共享必要資料。內容可能出現在主畫面或鎖定畫面；加入敏感資訊前，請留意可見範圍。</p>
+<p>原始碼 ZIP 匯出包含程式碼、作品說明、設計記憶及你選取的圖示（包括裁剪後的照片），不含工具業務記錄、工具內儲存的媒體、權限、開發對話及版本歷史。其他匯出、分享或列印操作可能包含你選取的內容。工具可載入外部資源、呼叫服務或開啟連結；對應網站會收到網路請求及工具傳送的資料。</p></section><section aria-labelledby="network"><h2 id="network">網路請求與診斷資訊</h2><p>App 從騰訊雲 COS 取得版本及設定資訊，代管方會收到 IP 位址等一般請求資訊；此設定請求不含你的作品原始碼或對話。外部相依項目檢查也會存取對應資源的代管方。</p>
+<p>SparkBuild 未整合廣告、第三方統計分析或自動向第三方回報當機的 SDK，不出售個人資訊，也不將其用於跨 App 廣告追蹤。本機執行記錄可能記錄錯誤、服務商及模型資訊和請求統計。開發版本也可能將請求及回應內容輸出至開發主控台。診斷資訊不會自動傳送給開發者；你透過 AI 修復或電子郵件支援提交的資訊會傳送給對應接收方。</p></section><section aria-labelledby="purchases"><h2 id="purchases">自願支持購買</h2><p>如果你選擇請作者喝杯咖啡支持開發者，App 內付款由 Apple 處理。SparkBuild 在裝置上使用 StoreKit 的商品和交易資訊顯示當地價格、驗證購買並完成交易。App 不會取得你的銀行卡資訊或 Apple 帳號憑證，也不會將購買記錄上傳到開發者伺服器。Apple 根據其隱私權政策處理付款資訊。支持完全自願，不解鎖功能或 AI 額度，也不產生訂閱。</p></section><section aria-labelledby="sharing"><h2 id="sharing">接收方、處理地區與服務商保留</h2><p>AI 請求、系統線上服務、工具外部內容、你選取的匯出或支援郵件，可能需要將相關資訊傳送出裝置。AI 服務商、已設定的伺服器或代理、Apple、資源代管方與郵件服務商，會依各自條款及隱私權政策處理收到的資訊；處理地點可能在你所在國家或地區之外。</p>
+<p>服務商的保留期限、安全措施、分包處理及是否可能用於模型訓練，取決於具體服務、帳號設定及協議。SparkBuild 無法為所有端點承諾零保留或不作訓練用途。提交個人或機密資訊前，請查閱對應服務商條款。SparkBuild 不會自動向這些服務傳送你的完整照片圖庫、通訊錄或全部作品。</p></section><section aria-labelledby="retention"><h2 id="retention">保留期限與刪除</h2><p>本機資訊通常保留至你主動刪除。將作品移至垃圾桶仍會保留資料；永久刪除會移除對應本機工作區、業務記錄、媒體、開發附件及網頁儲存空間。已寫入系統帳號的行事曆事件與提醒事項，仍由你在行事曆或提醒事項 App 管理。已匯出、分享的副本與備份須另行刪除。</p>
+<p>如需清除已儲存的 AI 憑證，請先在 AI 設定移除：iOS 鑰匙圈項目可能在解除安裝後保留。解除安裝 App 不會要求 AI 或郵件服務商刪除已收到的副本；其保留規則仍適用，你可向對應服務商申請刪除。支援郵件會在處理請求及履行適用法律義務所需期間保留，不再需要時刪除。</p></section><section aria-labelledby="rights"><h2 id="rights">你的選擇、權利與聯絡我們</h2><p>你可以查看及編輯本機內容、匯出原始碼、永久刪除作品、更換 AI 端點、移除已儲存憑證及撤銷權限。閱讀本政策及存取不依賴 AI 或選用權限的既有本機內容，無須啟用這些功能。</p>
+<p>你主動寄送郵件時，JQ-Miao 會收到你的信箱位址、郵件用戶端附帶的姓名、內文與你選取的附件，用於回覆、排查問題及處理隱私請求。請勿寄送 API 金鑰或不必要的敏感資訊。依適用法律，你可請求存取、更正、刪除、限制處理、反對處理、資料可攜或撤回同意，也可向主管機關申訴。請聯絡 sparkbuild2026@outlook.com；我們會依法處理，並可能合理驗證身分。我們只能處理自己控制的資訊，第三方持有的副本可能須向該服務商申請。</p>
+<p>本次同意僅適用於此服務位址和用途。更換服務位址後需要重新同意。你可在「設定 → AI 設定 → AI 資料共享」撤銷同意。撤銷會停止後續請求，無法收回已傳送的資料。</p></section><section aria-labelledby="security"><h2 id="security">資訊安全</h2><p>SparkBuild 使用 iOS 沙盒、鑰匙圈、系統權限控制及內建網路端點的 HTTPS 傳輸協助保護資訊；工具儲存空間依作品隔離。任何儲存或傳輸方式都無法保證絕對安全。自訂端點及匯入或產生的工具可能採用不同安全措施，請審慎檢查你執行、授權及分享的內容。</p></section><section aria-labelledby="children"><h2 id="children">兒童與未成年人</h2><p>SparkBuild 並非專為兒童設計的服務。未成年人應在適當的監護人指導下使用，並遵守所連接服務的年齡規定。如果你認為兒童在缺少必要授權的情況下向開發者提供了個人資訊，請聯絡我們，以便依法查核及刪除我們控制的資訊。</p></section><section aria-labelledby="changes"><h2 id="changes">政策更新</h2><p>功能或資訊處理方式變更時，我們會更新本政策。設定中會提供目前政策及生效日期。對於適用法律要求另行通知或取得同意的重大變更，我們會履行相應義務。</p></section>
+    <section><h2>相關服務商的隱私權政策</h2><ul><li><a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" rel="noreferrer">DeepSeek</a></li>
+<li><a href="https://www.anthropic.com/legal/privacy" rel="noreferrer">Anthropic / Claude</a></li>
+<li><a href="https://openai.com/policies/privacy-policy/" rel="noreferrer">OpenAI</a></li>
+<li><a href="https://policies.google.com/privacy" rel="noreferrer">Google / Gemini</a></li>
+<li><a href="https://cursor.com/privacy" rel="noreferrer">Cursor</a></li>
+<li><a href="https://www.tencentcloud.com/document/product/301/17345" rel="noreferrer">Tencent Cloud</a></li>
+<li><a href="https://www.apple.com/legal/privacy/" rel="noreferrer">Apple</a></li>
+<li><a href="https://privacy.microsoft.com/privacystatement" rel="noreferrer">Microsoft / Outlook</a></li></ul></section>
+    <p><a href="mailto:sparkbuild2026@outlook.com">sparkbuild2026@outlook.com</a></p>
+  </main>
+</body>
+</html>
